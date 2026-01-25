@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     allowedHosts: [
-      "kavyaportfolio-4re5.onrender.com"
+      "https://kavyaportfolio-4re5.onrender.com"
     ]
   }
 });
