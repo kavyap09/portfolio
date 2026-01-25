@@ -4,8 +4,9 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: [
-      "https://kavyaportfolio-4re5.onrender.com"
-    ]
+    allowedHosts: "all"
+  },
+  preview:{
+  allowedHosts:"all"
   }
 });
