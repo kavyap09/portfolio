@@ -7,6 +7,10 @@ export default defineConfig({
     allowedHosts: "all"
   },
   preview:{
+<<<<<<< HEAD
   allowedHosts:"all"
+=======
+    allowedHosts:"all"
+>>>>>>> b4a3d9c (update2 vite)
   }
 });
