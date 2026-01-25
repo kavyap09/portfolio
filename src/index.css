@@ -1,53 +1,208 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  @apply bg-[#0b0f19] text-white;
+  @apply bg-[#0b0f19] text-white antialiased;
+  font-family: "Space Grotesk", sans-serif;
 }
+h1, h2, h3 {
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.7;
+}
+
+
+/* Smooth transitions everywhere */
+* {
+  transition-property: color, background-color, border-color, transform, box-shadow, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}
+
+/* ----------------------------------
+   LAYOUT
+-----------------------------------*/
 
 section {
   @apply max-w-7xl mx-auto px-6 md:px-10;
 }
 
 .section {
-  @apply py-24;
+  @apply py-28 md:py-32;
 }
 
+/* Root gradient option */
+.gradient-bg {
+  background: radial-gradient(circle at top, #1e3a8a, #0b0f19 60%);
+}
+
+/* ----------------------------------
+   CARDS
+-----------------------------------*/
+
 .card {
-  @apply bg-[#121826] rounded-xl border border-gray-800 p-6
-  transition-all duration-300 ease-out;
+  @apply bg-[#121826]/80 backdrop-blur-md rounded-2xl
+  border border-gray-800 p-6;
 }
 
 .card:hover {
-  @apply border-blue-500 shadow-xl shadow-blue-500/30;
-  transform: translateY(-6px) scale(1.02);
+  border-color: rgb(96 165 250);
+  box-shadow: 0 25px 50px -12px rgba(59,130,246,0.25);
+  transform: translateY(-10px) scale(1.03);
 }
+
+/* Glow helper */
+.glow-hover:hover {
+  box-shadow: 0 0 15px rgba(59,130,246,0.6);
+}
+
+/* ----------------------------------
+   BUTTONS
+-----------------------------------*/
+
 .btn-primary {
-  @apply px-6 py-2 rounded-full bg-blue-500 text-white font-medium
-  transition-all duration-200;
+  @apply px-6 py-2 rounded-full bg-blue-500 text-white font-medium;
 }
 
 .btn-primary:hover {
   background-color: #3b82f6;
-  box-shadow: 0 0 0 1px #3b82f6, 0 6px 20px rgba(59,130,246,0.25);
-  transform: translateY(-1px);
+  box-shadow: 0 0 12px rgba(59,130,246,0.8);
+  transform: translateY(-2px) scale(1.05);
 }
 
 .btn-outline {
-  @apply px-6 py-2 rounded-full border border-blue-500 text-blue-400
-  transition-all duration-200;
+  @apply px-6 py-2 rounded-full border border-blue-500 text-blue-400;
 }
 
 .btn-outline:hover {
-  background-color: rgba(59,130,246,0.1);
-  box-shadow: 0 0 0 1px #3b82f6;
-  transform: translateY(-1px);
+  background-color: rgba(59,130,246,0.15);
+  box-shadow: 0 0 12px rgba(59,130,246,0.5);
+  transform: translateY(-2px) scale(1.05);
 }
+
+/* ----------------------------------
+   TEXT EFFECTS
+-----------------------------------*/
+
+.gradient-text {
+  background: linear-gradient(to right, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading {
+  @apply text-3xl md:text-4xl font-bold mb-4;
+}
+
+/* ----------------------------------
+   NAVBAR LINKS
+-----------------------------------*/
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #60a5fa;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* ----------------------------------
+   ANIMATIONS
+-----------------------------------*/
+
+/* Floating */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+.float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Fade In */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Slow Pulse Glow */
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 0 rgba(59,130,246,0.4); }
+  50% { box-shadow: 0 0 20px rgba(59,130,246,0.8); }
+  100% { box-shadow: 0 0 0 rgba(59,130,246,0.4); }
+}
+
+.pulse-glow {
+  animation: pulseGlow 3s infinite;
+}
+
+/* ----------------------------------
+   IMAGES
+-----------------------------------*/
+
+.img-hover {
+  transition: transform 0.4s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.08);
+}
+
+/* ----------------------------------
+   SCROLLBAR
+-----------------------------------*/
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #60a5fa;
+}
+
+/* ----------------------------------
+   3D HELPERS
+-----------------------------------*/
+
 .perspective-1000 {
   perspective: 1000px;
 }
