@@ -3,7 +3,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const certifications = [
    {
-    title: "MERN STACK COMPLETION-APNA COLLEGE",
+    title: "MERN STACK COMPLETION",
     link: "https://drive.google.com/file/d/1JlCTi77htlWH4-p7SQNlolgPrhubI3o5/view?usp=sharing",
   },
    {

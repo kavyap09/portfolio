@@ -52,10 +52,10 @@ const projects = [
     live: "https://quora-project.onrender.com/posts",
   },
   {
-    title: "MealMate App",
+    title:"Nutri-Mate App",
     tech: "Android Studio (Java)",
-    desc: "Meal planning app offering recipes with macro-nutritional values.",
-    github: "https://github.com/kavyap09/Meal-Mate",
+    desc: "Nutri-Mate is a simple, health tracking application designed to help users monitor their nutrition, BMI, and daily food intake in an easy and organized way",
+    github: "https://github.com/kavyap09/Nutri-Mate",
     live: null,
   },
 ];
