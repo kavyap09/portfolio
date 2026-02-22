@@ -6,11 +6,7 @@ export default defineConfig({
   server: {
     allowedHosts: "all"
   },
-  preview:{
-<<<<<<< HEAD
-  allowedHosts:"all"
-=======
-    allowedHosts:"all"
->>>>>>> b4a3d9c (update2 vite)
+  preview: {
+    allowedHosts: "all"
   }
 });
