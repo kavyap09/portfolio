@@ -3,19 +3,19 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 const projects = [
   {
-    title: "Wanderlust",
-    tech: "MERN Stack",
-    desc: "Airbnb-style full-stack application with user authentication and listings management.",
-    github: "https://github.com/kavyap09/wander-lust",
-    live: "https://wander-lust-ll4n.onrender.com/listings",
-  },
-  {
     title: "ChatGPT Clone",
     tech: "MERN, OpenAI API",
     desc: "Developed a ChatGPT-like conversational app with real-time AI responses.",
     github: "https://github.com/kavyap09/chatGpt",
     live: null,
   },
+  {
+  title: "ThreatSense",
+  tech: "Cybersecurity",
+  desc: "Developed a phishing awareness and threat detection platform focused on helping Indian enterprises identify and understand cybersecurity risks.",
+  github: "https://github.com/kavyap09/threatSense",
+  live: null,
+},
   {
     title: "RoleFit",
     tech: "MERN Stack",

@@ -10,6 +10,7 @@ export default function Contact() {
 
     emailjs
       .sendForm(
+        
         "service_60188xf",
         "template_fkmd21e",
         form.current,

@@ -2,40 +2,33 @@ import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const certifications = [
-   {
-    title: "MERN STACK COMPLETION",
+  {
+    title: "MERN Stack Completion",
     link: "https://drive.google.com/file/d/1JlCTi77htlWH4-p7SQNlolgPrhubI3o5/view?usp=sharing",
   },
-   {
-    title: "Android Developer Virtual internship-EDUSKILLS",
+  {
+    title: "Android Developer Virtual Internship",
     link: "https://drive.google.com/file/d/1SUbrZZKR0tx_6DbwQK-izPxnzgc7gz16/view?usp=sharing",
   },
   {
-    title: "Accenture North America Project Management – Forage",
-    link: "https://drive.google.com/file/d/1APK-Fmq-EK7lajAoEY7GS568cBoFeRu_/view?usp=sharing",
+    title: "Hackathon Participation",
+    link: "https://drive.google.com/file/d/1zEbjG21cZVtKWCTVEthOcE-SW27OYSqj/view?usp=sharing",
   },
   {
-    title: "AWS APAC Solutions Architecture – Forage",
-    link: "https://drive.google.com/file/d/1s5uBxLbCnqnphC4ueeheNIc6dNp_bVvq/view?usp=sharing",
+    title: "Accenture Project Management – Forage",
+    link: "https://drive.google.com/file/d/1APK-Fmq-EK7lajAoEY7GS568cBoFeRu_/view?usp=sharing",
   },
   {
     title: "Deloitte Data Analytics – Forage",
     link: "https://drive.google.com/file/d/1BU1RYRoABpz0tBewKYjdrbM4yeEtqvEh/view?usp=sharing",
   },
   {
-    title: "Deloitte Technology Job Simulation – Forage",
-    link: "https://drive.google.com/file/d/1lgMKcZgHkZlESE9Fl2zWQi_Wl6P92tE3/view?usp=sharing",
-  },
-  {
-    title: "Tata Data Analytics – Forage",
-    link: "https://drive.google.com/file/d/1xQyjQCkrK6aP3WDj7IjtWMGnVYgdXgP9/view?usp=sharing",
-  },
- {
-    title: "Tata Data Analytics – Forage",
-    link: "https://drive.google.com/file/d/1xQyjQCkrK6aP3WDj7IjtWMGnVYgdXgP9/view?usp=sharing",
-  }, {
     title: "Deloitte Cyber Job Simulation – Forage",
     link: "https://drive.google.com/file/d/12W5syVWjCWFM0JFFBCG2_GsCRajVSNgA/view?usp=sharing",
+  },
+  {
+    title: "Explore More Certifications",
+    link: "https://drive.google.com/drive/u/0/folders/1vTTirDXfpAirC6Xhnzb3ElrDM5DRARDq",
   },
 ];
 
