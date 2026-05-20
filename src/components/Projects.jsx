@@ -6,8 +6,8 @@ const projects = [
     title: "ChatGPT Clone",
     tech: "MERN, OpenAI API",
     desc: "Developed a ChatGPT-like conversational app with real-time AI responses.",
-    github: "https://github.com/kavyap09/chatGpt",
-    live: null,
+    github: "https://github.com/kavyap09/sigmaGpt",
+    live: "https://sigmagpt-1-so4n.onrender.com/",
   },
   {
   title: "ThreatSense",
@@ -21,7 +21,7 @@ const projects = [
     tech: "MERN Stack",
     desc: "Career guidance web application that analyzes user skills and suggests suitable job roles with secure authentication and a responsive UI.",
     github: "https://github.com/kavyap09/Role-Fit",
-    live: null,
+    live: "https://role-fit-9.onrender.com/",
   },
   {
     title: "Weather App",
@@ -43,13 +43,6 @@ const projects = [
     desc: "Yoga website providing pose guidance and simple diet plans.",
     github: "https://github.com/kavyap09/yogaEase",
     live: "https://shiny-pegasus-eb65cb.netlify.app/",
-  },
-  {
-    title: "Quora Posts",
-    tech: "Node.js, Express, HTML, CSS",
-    desc: "Quora-style web application with post creation and management features.",
-    github: "https://github.com/kavyap09/quora-proj",
-    live: "https://quora-project.onrender.com/posts",
   },
   {
     title:"Nutri-Mate App",
