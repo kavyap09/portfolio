@@ -2,17 +2,17 @@ import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const certifications = [
-  {
-    title: "MERN Stack Completion",
-    link: "https://drive.google.com/file/d/1JlCTi77htlWH4-p7SQNlolgPrhubI3o5/view?usp=sharing",
+    {
+    title: "NPTEL - Cloud Computing",
+    link: "https://drive.google.com/file/d/1A-wHggNbypvNJm7OXtql2H3ieKgdtkIh/view?usp=sharing",
   },
   {
     title: "Android Developer Virtual Internship",
     link: "https://drive.google.com/file/d/1SUbrZZKR0tx_6DbwQK-izPxnzgc7gz16/view?usp=sharing",
   },
   {
-    title: "Hackathon Participation",
-    link: "https://drive.google.com/file/d/1zEbjG21cZVtKWCTVEthOcE-SW27OYSqj/view?usp=sharing",
+    title: "Runner Up-Summer Saas AI Hackathon",
+    link: "https://drive.google.com/file/d/16cqJGBV2wQCLh2mhd8F1TJ3mYdwz8KLd/view?usp=sharing",
   },
   {
     title: "Accenture Project Management – Forage",
