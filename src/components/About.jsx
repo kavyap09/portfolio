@@ -63,7 +63,7 @@ export default function About() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold">9.18</h3>
+            <h3 className="text-2xl font-bold">9.13</h3>
             <p className="text-gray-400">Current CGPA</p>
           </div>
         </motion.div>

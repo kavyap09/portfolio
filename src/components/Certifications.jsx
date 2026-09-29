@@ -32,6 +32,7 @@ const certifications = [
   },
 ];
 
+
 export default function Certifications() {
   return (
     <section id="certification" className="section">
